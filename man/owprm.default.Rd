@@ -7,11 +7,9 @@
 \method{owprm}{default}(aovObj, ...)
 }
 \arguments{
-\item{aovObj}{An \code{aov} output object.
-  Specifically, the \code{aovObj} is an output object
-  that results from fitting \code{aov} to a set of data
-  with a specific analysis of variance model.
-  \code{aovObj} is a \emph{fully saturated} \code{aov} object.
+\item{aovObj}{object returned from \code{aov}}
+
+\item{...}{other arguments passed to function (not currently in use)
 
 The \emph{fully saturated} \code{aov} object has the form \deqn{y_{ijk} = \pi_{i} + \Phi_{j} + o_{k(j)} + \pi \Phi_{ij} + \pi o_{ik(j)}}}
 }

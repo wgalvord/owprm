@@ -6,6 +6,11 @@
 \usage{
 owprm(aovObj, ...)
 }
+\arguments{
+\item{aovObj}{object returned from \code{aov}}
+
+\item{...}{other arguments passed to function (not currently in use)}
+}
 \description{
 Occasions Within Phases Repeated Measures
 }

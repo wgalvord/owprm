@@ -1,5 +1,8 @@
 #' Occasions Within Phases Repeated Measures
 #'
+#' @param aovObj object returned from \code{aov}
+#' @param ... other arguments passed to function (not currently in use)
+#'
 #' @export
 ##
 owprm <-
@@ -12,11 +15,8 @@ owprm <-
 #'
 #' @export
 #'
-#' @param aovObj An \code{aov} output object.
-#'   Specifically, the \code{aovObj} is an output object
-#'   that results from fitting \code{aov} to a set of data
-#'   with a specific analysis of variance model.
-#'   \code{aovObj} is a \emph{fully saturated} \code{aov} object.
+#' @param aovObj object returned from \code{aov}
+#' @param ... other arguments passed to function (not currently in use)
 #'
 #' The \emph{fully saturated} \code{aov} object has the form \deqn{y_{ijk} = \pi_{i} + \Phi_{j} + o_{k(j)} + \pi \Phi_{ij} + \pi o_{ik(j)}}
 #'
@@ -55,6 +55,11 @@ owprm.default <- function(aovObj, ...) {
 ##
 #' Print function
 #'
+#' @param x \code{owprm} object
+#' @param ... other arguments to function
+#'
+#' @export
+#'
 print.owprm <- function(x, ...) {
   cat('Call: \n')
   print(x$Call)
@@ -64,7 +69,14 @@ print.owprm <- function(x, ...) {
   cat('\nSummary of Saturated ANOVA Object: \n')
   print(x$Summary)
 }
-##
+
+#' Summary
+#'
+#' @param object \code{owprm} object
+#' @param ... other arguments to function
+#'
+#' @export
+#'
 summary.owprm <- function(object, ...)
 {
   TAB <- object$Anova
@@ -72,7 +84,14 @@ summary.owprm <- function(object, ...)
   class(TABout) <- 'summary.owprm'
   TABout
 }
-##
+
+#' Print summary
+#'
+#' @param x \code{owprm} object
+#' @param ... other arguments to function
+#'
+#' @export
+#'
 print.summary.owprm <- function(x, ...)
 {
   ## cat('Call:\n')

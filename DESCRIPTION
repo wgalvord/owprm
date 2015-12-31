@@ -1,0 +1,24 @@
+Package: owprm
+Type: Package
+Title: Occasions Within Phases Repeated Measures
+Version: 0.1.0
+Date: 2015-12-31
+Author: Authors@R: person('W', 'Alvord', 'Greg',
+    email = "greg.alvord@nih.gov", role = c('aut', 'cre'))
+Maintainer: W Greg Alvord <greg.alvord@nih.gov>
+Description: Constructs the correct F statistic and significance
+    test for an 'Occasions Within Phases' longitudinal, repeated
+    measures analysis.  Mean squares for the F statistic are
+    obtained from a fitted, fullty saturated aov object.
+License: GPL-2
+LazyData: TRUE
+Suggests:
+    ggplot2,
+    nlme,
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+URL: http://github.com/wgalvord/owprm
+BugReports: http://github.com/wgalvord/owprm/issues
+RoxygenNote: 5.0.1

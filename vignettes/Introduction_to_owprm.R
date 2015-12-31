@@ -1,8 +1,6 @@
 ## ---- echo = FALSE-------------------------------------------------------
 library(nlme)
-library(MASS)
 library(ggplot2)
-library(devtools)
 
 ## ---- echo = FALSE-------------------------------------------------------
 ## Read in ascorbic data set

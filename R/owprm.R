@@ -35,7 +35,7 @@ owprm <-
 #' options(digits = 4, scipen = 2)
 #' owprm_aovObj
 #' summary(owprm_aovObj)
-owprm.default <- function(aovObj) {
+owprm.default <- function(aovObj, ...) {
   .call <- match.call()
   ms.for.phase.ch <- anova(aovObj)[2,3]
   ms.for.patient.by.phase.ch <- anova(aovObj)[4,3]
@@ -80,3 +80,12 @@ print.summary.owprm <- function(x, ...)
   cat('\n')
   print(x$TAB)
 }
+
+#' ascorbic data from Crowder and Hand
+#'
+#' A dataset containing ascorbic acid measures on 12 patients
+#' The data come from Table 3.3 in Crowder and Hand.
+#'
+#' @format A data frame with 84 observations on the following 7 variables.
+#'
+"ascorbic"

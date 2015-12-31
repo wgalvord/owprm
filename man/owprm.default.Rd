@@ -4,7 +4,7 @@
 \alias{owprm.default}
 \title{Perform Occasions Within Phases repeated measures analysis.}
 \usage{
-\method{owprm}{default}(aovObj)
+\method{owprm}{default}(aovObj, ...)
 }
 \arguments{
 \item{aovObj}{An \code{aov} output object.

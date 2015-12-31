@@ -12,11 +12,8 @@ vignette: >
 
 ```{r, echo = FALSE}
 library(nlme)
-library(MASS)
 library(ggplot2)
-library(devtools)
 ```
-
 
 
 ```{r, echo = FALSE}

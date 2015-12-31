@@ -12,12 +12,11 @@ Description: Constructs the correct F statistic and significance
     obtained from a fitted, fullty saturated aov object.
 License: GPL-2
 LazyData: TRUE
+Depends: R (>= 3.0.0)
 Suggests:
     ggplot2,
     nlme,
-    knitr,
-    rmarkdown,
-    testthat
+    knitr
 VignetteBuilder: knitr
 URL: http://github.com/wgalvord/owprm
 BugReports: http://github.com/wgalvord/owprm/issues

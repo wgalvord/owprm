@@ -1,4 +1,6 @@
 #' Occasions Within Phases Repeated Measures
+#'
+#' @export
 ##
 owprm <-
   function(aovObj, ...)
@@ -7,6 +9,8 @@ owprm <-
   }
 ##
 #' Perform Occasions Within Phases repeated measures analysis.
+#'
+#' @export
 #'
 #' @param aovObj An \code{aov} output object.
 #'   Specifically, the \code{aovObj} is an output object
@@ -49,6 +53,8 @@ owprm.default <- function(aovObj) {
   owpObj
 }
 ##
+#' Print function
+#'
 print.owprm <- function(x, ...) {
   cat('Call: \n')
   print(x$Call)

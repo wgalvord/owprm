@@ -81,7 +81,7 @@ aspect = 0.6, main = 'Reaction of Patients to Rx')
 ##
 ## ***** End plot of groupedData data frame
 ##
-
+##
 ## ***** Get ggplot
 ##
 ## Create ggplot2 plot object
@@ -147,7 +147,7 @@ axis(side = 1, at = c(1:7),
 labels = c(1:7), tick = TRUE, las = 2, cex.axis = .7)
 abline(v = c(2.5, 5.5), lty = 1, col = 'blue', lwd = 1)
 ##
-## Add \\text above data - ascorbic.acid
+## Add text above data - ascorbic.acid
 ##
 text(1.0, 4.4, "Phase 1: 'pre'",
   pos = 4, offset = 0, cex = 1.0)

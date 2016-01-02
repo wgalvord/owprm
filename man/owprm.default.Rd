@@ -23,7 +23,6 @@ Perform Occasions Within Phases repeated measures analysis.
 \examples{
 data(ascorbic)
 aovObj <- aov(ascorbic.acid ~ patient*Phase*occ, data = ascorbic)
-## (alternatively) aovObj <- aov(ascorbic.acid ~ patient + Phase + Phase:occ + patient:Phase + patient:Phase:occ, data = ascorbic)
 aovObj
 ## To avoid having warning messages sent to console
 ## suppressWarnings(owprm(aovObj))

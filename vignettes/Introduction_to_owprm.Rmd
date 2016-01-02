@@ -236,6 +236,8 @@ Cornfield J and Tukey JW (1956) 'Average values of mean squares in factorials' _
 
 Crowder MJ and Hand DJ (1990) _Analysis of Repeated Measures_, Chapman and Hall, London. 
 
+Del Prete GQ, ..., Alvord WG, ... Lifson JD (2015) 'Elevated plasma viral loads in romidepsin treated SIV-infected rhesus macaques on suppressive combination antiretroviral therapy.' _Antimicrobial Agents and Chemotherapy_, 12/2015; DOI:10.1128/AAC.02625-15.
+
 Del Prete GQ, ..., Alvord WG, ... Lifson JD (2014) 'Effect of SAHA administration on the residual virus pool in a model of combination antiretroviral therapy-mediated suppression in SIVmac239-infected Indian rhesus macaques.' _Antimicrobial Agents and Chemotherapy_, **58**(11), 6790-806.
 
 Pinheiro jC and Bates DM (2000) _Mixed-Effects Models in S and S-Plus_, Springer, New York.
